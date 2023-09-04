@@ -1,0 +1,12 @@
+<div class="row p-3">
+  <div class="col-12">
+    <!-- buscar -->
+    <gifs-search-box></gifs-search-box>
+  </div>
+  <!-- Listado -->
+
+  <div class="clo-12 pt-2">
+    <h1>Busqueda: {{ titulo | titlecase }}</h1>
+    <gifs-card-list [gifsLista]="gifs"></gifs-card-list>
+  </div>
+</div>
